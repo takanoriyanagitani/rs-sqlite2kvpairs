@@ -3,7 +3,16 @@ name = "rs-sqlite2kvpairs"
 version = "0.1.0"
 edition = "2024"
 
+description = "Export SQLite kvpairs to JSON format"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-sqlite2kvpairs"
+homepage = "https://github.com/takanoriyanagitani/rs-sqlite2kvpairs"
+documentation = "https://docs.rs/rs-sqlite2kvpairs/latest"
+keywords = ["sqlite", "kv-pairs", "json", "kvstore", "wasi"]
+
 exclude = [
+  "sqlite2kvpairs.wasm",
+  "example.sqlite.db3",
 ]
 
 [lints.rust]
